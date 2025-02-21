@@ -105,3 +105,31 @@
   nav li a:hover{
     color: #858fb4;
   }
+
+.burger{
+  width: 50%;
+  height: auto;
+  float: right;
+  margin-top: 1em;
+  
+}
+
+figure {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+figcaption {
+  background-color: #858fb4;
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: right;
+}
+
+footer{
+  clear: both;
+}
