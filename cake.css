@@ -106,30 +106,38 @@
     color: #858fb4;
   }
 
-.burger{
-  width: 50%;
-  height: auto;
-  float: right;
-  margin-top: 1em;
-  
-}
+  figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+  }
 
-figure {
-  display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 40px;
-  margin-right: 40px;
-}
+  figure.wrapped img{
+    width: 100%;
+    height: auto;
+  }
 
-figcaption {
-  background-color: #858fb4;
-  color: black;
-  font-style: italic;
-  padding: 2px;
-  text-align: right;
-}
+  figure.wrapped figcaption{
+    text-align: center;
+    font-size: .75rem;
+  }
 
-footer{
-  clear: both;
-}
+  div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  div.gallery figure{
+    margin: .5rem 2% 0 0;
+  }
+
+  div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #edb240;
+
+  }
+
+  footer{
+    clear: both;
+  }
