@@ -122,6 +122,10 @@ figure {
   margin-right: 40px;
 }
 
+figure.img {
+  border:solid;
+}
+
 figcaption {
   background-color: #858fb4;
   color: black;
