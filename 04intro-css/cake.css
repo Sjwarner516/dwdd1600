@@ -1,0 +1,143 @@
+.rouge-script-regular {
+    font-family: "Rouge Script", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .bangers-regular {
+    font-family: "Bangers", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .markazi-text {
+  font-family: "Markazi Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+  body{
+    background-color: #f5f2f0;
+    font-family: "Markazi Text", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+    
+
+  header{
+    background-color: #eb7096;
+    padding: 1rem 2vw;
+    text-decoration-color: #858fb4;
+    font-family:  "Bangers", serif;
+    border-style: solid;
+    border-color: #ccd1db;
+    border-width: thick;
+    border-radius: 15px;
+    font-size: 16px;
+  }
+
+  /*Nav section styling */
+  nav{
+    background-color: #EBBAC2;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #edb240;
+    border-width: thick;
+    border-radius: 15px;
+  }
+
+  nav ul{
+    list-style-type: none;
+    font-family:  "Bangers", serif;
+    font-weight: 400;
+    display: block;
+    padding: .83rem 2rem;
+    text-decoration: none;
+    display: flex;
+    margin-right: 20px;
+    
+  }
+
+ nav li{
+  display: flex;
+  margin-right: 20px;
+
+ }
+
+  nav a:hover{
+    color:darkmagenta
+}
+
+  a{ text-decoration: none;
+    display: block;
+    padding: .83rem .83rem;
+    
+  }
+
+  h1{
+
+    font-style: italic;
+    font-family: "Rouge Script", serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    }
+
+  h2{
+    font-family: "Bangers", serif;
+    font-style: italic;
+    text-decoration-color: #edb240;
+  }
+
+  p{
+    font-family: "Bangers", serif;
+  }
+
+  dl{
+    font-family: "Markazi Text", serif;
+    font-weight: 500; 
+
+  }
+
+  nav li.active a{
+    background-color: #ccd1db;
+    color: #eb7096;
+  }
+
+  nav li a:hover{
+    color: #858fb4;
+  }
+
+  figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+  }
+
+  figure.wrapped img{
+    width: 100%;
+    height: auto;
+  }
+
+  figure.wrapped figcaption{
+    text-align: center;
+    font-size: .75rem;
+  }
+
+  div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  div.gallery figure{
+    margin: .5rem 2% 0 0;
+  }
+
+  div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #edb240;
+
+  }
+
+  footer{
+    clear: both;
+  }
