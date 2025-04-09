@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Order your next dessert."/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+</head>    
+    <link rel="stylesheet" href="cake.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <title>Cake order form</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <img class="ellogo" src="neww.logo.png" alt="Logo" width="200" height="134">
+        <div><h1>Skiddy Jo's </h1>
+        <p>A cake for every occasion!</p>
+    </div>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home page </a></li>
+            <li><a href="aboutme.html">About me</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="order.html">Order Form</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="location.html">Our location</a></li>
+
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Submit an order form </h1>
+        <form method="get" class="myform" action="thanks.html">
+        <fieldset>
+            <legend>Customer Information</legend>
+            <label> First Name: <input type="text" name="first_name" required></label>
+            <label> Last Name: <input type="text" name="last_name" required></label>
+            <label>Cell Phone: <input type="tel" name="phone" required placeholder="801-123-4567"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Frosting Flavor</legend>
+            <label><input type="radio" name="method" value="vanilla"> Vanilla </label>
+            <label><input type="radio" name="method" value="chocolate"> Chocolate </label>
+            <label><input type="radio" name="method" value="stripes"> Stripe</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Flavor Options</legend>
+            
+              <label><input type="checkbox" name="chocolate" value="chosen">Chocolate</label>
+              <label><input type="checkbox" name="vanilla" value="chosen">Vanilla</label>
+              <label><input type="checkbox" name="Funfetti" value="chosen">Funfetti</label>
+              <label><input type="checkbox" name="Peanutbutter" value="chosen">Peanut Butter</label>
+
+                <label>Prefered Delivery Time
+                    <select name="time">
+                        <option value="none">Select a Time</option>
+                        <option value="morning">Between 7:00am - 11:00am</option>
+                        <option value="noon">Between 11:00am - 2:00pm</option>
+                        <option value="afternoon">Between 2:00pm - 5:00pm</option>
+                        <option value="evening">Between 5:00pm - 8:00pmm</option>
+
+                    </select>
+                </label>
+        </fieldset>
+
+        <label>Comments:<textarea></textarea></label>
+
+        <input type="submit" value="Submit Form">    
+        </form>
+    </main>
+    
+    <!-- start the page footer -->
+     <footer>
+    <p>&copy; Sydni Warner &bull; 2025</p>
+</footer>
+</body>
+</html>
